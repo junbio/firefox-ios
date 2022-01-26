@@ -75,7 +75,7 @@ class TwoLineImageOverlayCell: UITableViewCell, NotificationThemeable {
         containerView.addSubview(midView)
 
         containerView.addSubview(leftOverlayImageView)
-        addSubview(containerView)
+        contentView.addSubview(containerView)
         contentView.addSubview(containerView)
         bringSubviewToFront(containerView)
 
