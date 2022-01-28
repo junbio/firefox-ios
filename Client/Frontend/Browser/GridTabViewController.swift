@@ -173,6 +173,7 @@ class GridTabViewController: UIViewController, TabTrayViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         tabManager.addDelegate(self)
+        tabDisplayManager.refreshStore()
         view.accessibilityLabel = .TabTrayViewAccessibilityLabel
 
         webViewContainerBackdrop = UIView()
