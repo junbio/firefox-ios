@@ -457,6 +457,9 @@
 /* When a user taps and holds on an item from the Recently Visited section, this label will appear indicating the option to remove that item. */
 "FirefoxHome.RecentHistory.Remove" = "ᱚᱪᱚᱜᱽ ᱢᱮ";
 
+/* This string will show under a shortcuts tile on the firefox home page, indicating that the tile is a sponsored tile. Space is limited, please keep as short as possible. */
+"FirefoxHomepage.Shortcuts.Sponsored.v100" = "ᱠᱟᱹᱢᱤᱼᱤᱭᱟᱹ";
+
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "ᱢᱟᱲᱟᱝ";
 
@@ -566,7 +569,7 @@
 "History" = "ᱦᱤᱛᱟᱹᱞ";
 
 /* Title for button in the history panel to clear recent history */
-"HistoryPanel.ClearHistoryButtonTitle" = "ᱱᱤᱛᱚᱠᱟ ᱱᱟᱜᱟᱢ ᱯᱷᱟᱨᱪᱟᱭ ᱢᱮ...";
+"HistoryPanel.ClearHistoryButtonTitle" = "ᱱᱤᱛᱚᱠᱟ ᱱᱟᱜᱟᱢ ᱯᱷᱟᱨᱪᱟᱭ ᱢᱮ…";
 
 /* Option title to clear all browsing history. */
 "HistoryPanel.ClearHistoryMenuOptionEverything" = "ᱡᱚᱛᱚᱣᱟᱠ";
@@ -731,7 +734,7 @@
 "Keyboard.Shortcuts.OpenLinkInNewTab" = "ᱱᱟᱶᱟ ᱴᱮᱵ ᱨᱮ ᱡᱷᱤᱡᱽ ᱢᱮ";
 
 /* A label indicating the keyboard shortcut of saving the current web page in a format of the user's choice. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
-"Keyboard.Shortcuts.SavePageAs" = "ᱞᱮᱠᱟ ᱥᱟᱦᱴᱟ ᱥᱟᱺᱪᱟᱣ...";
+"Keyboard.Shortcuts.SavePageAs" = "ᱞᱮᱠᱟ ᱥᱟᱦᱴᱟ ᱥᱟᱺᱪᱟᱣ…";
 
 /* A label indicating a grouping of related keyboard shortcuts describing actions a user can do with Bookmarks. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
 "Keyboard.Shortcuts.Section.Bookmark" = "ᱵᱩᱠᱢᱟᱨᱠ ᱠᱚ";
@@ -793,6 +796,15 @@
 /* History tableview section header */
 "Last week" = "ᱛᱟᱭᱚᱢ ᱦᱟᱴ";
 
+/* Within the History Panel, users can delete search group sites history. They can cancel this action by pressing a cancel button. */
+"LibraryPanel.History.ClearGroupedTabsCancel.v100" = "ᱵᱟᱹᱰᱨᱟᱹ";
+
+/* Within the History Panel, users can delete search group sites history. They need to confirm the action by pressing the delete button. */
+"LibraryPanel.History.ClearGroupedTabsDelete.v100" = "ᱢᱮᱴᱟᱣ ᱢᱮ";
+
+/* Within the History Panel, users can delete search group sites history. %@ represents the search group name. */
+"LibraryPanel.History.ClearGroupedTabsTitle.v100" = "%@ ᱨᱮ ᱡᱷᱚᱛᱚ ᱥᱟᱭᱤᱴ ᱢᱮᱴᱟᱣ ᱟᱢ ᱥᱮ ?";
+
 /* In the history panel, users will be able to search terms in their browsing history. This label is shown when there is no results after querying the search terms in the user's history. */
 "LibraryPanel.History.NoHistoryFound.v99" = "ᱱᱚᱰᱮ ᱱᱟᱜᱟᱢ ᱵᱟᱝ ᱧᱟᱢ ᱞᱮᱱᱟ";
 
@@ -804,6 +816,9 @@
 
 /* In the history panel, this is the title on the button that navigates the user to a screen showing only browser history from other devices that are synced with the user's Firefox account. */
 "LibraryPanel.History.SyncedFromOtherDevices.v99" = "ᱮᱴᱟᱜ ᱥᱟᱫᱷᱚᱱ ᱠᱷᱚᱱ ᱟᱹᱭᱩᱨ ᱢᱤᱫ ᱠᱟᱱᱟ";
+
+/* Within the History Panel, users can see the option of viewing their history from synced tabs. */
+"LibraryPanel.History.SyncedHistory.v100" = "ᱢᱮᱲᱟᱣ ᱠᱟᱱ ᱱᱟᱜᱟᱢ";
 
 /* This label is meant to signify the section containing a group of items that are older than thirty days. */
 "LibraryPanel.Section.Older" = "ᱢᱟᱨᱮᱭᱟᱜ";
@@ -818,7 +833,7 @@
 "Load original page" = "ᱢᱩᱞ ᱥᱟᱦᱟᱴᱟ ᱞᱟᱫᱮ";
 
 /* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
-"Loading content…" = "ᱵᱤᱥᱳᱭ ᱞᱟᱫᱮ ᱦᱩᱭᱩ ᱠᱟᱱᱟ...";
+"Loading content…" = "ᱵᱤᱥᱳᱭ ᱞᱟᱫᱮ ᱦᱩᱭᱩ ᱠᱟᱱᱟ…";
 
 /* Authentication prompt log in button */
 "Log in" = "ᱵᱚᱞᱚ ᱢᱮ";
@@ -1680,6 +1695,21 @@
 /* Label used as an item in Settings. When touched it will open a dialog to configure the home page and its uses. */
 "Settings.HomePage.SectionName" = "ᱚᱲᱟᱜ ᱥᱟᱦᱴᱟ";
 
+/* Users can disable or enable shortcuts related settings. This string is the title of the page to change your shortcuts settings. */
+"Settings.Homepage.Shortcuts.ShortcutsPageTitle.v100" = "ᱠᱷᱟᱴᱚᱢᱟᱪᱷᱟ ᱠᱚ";
+
+/* This string is the title of the toggle to disable the shortcuts section in the settings page. */
+"Settings.Homepage.Shortcuts.ShortcutsToggle.v100" = "ᱠᱷᱟᱴᱚᱢᱟᱪᱷᱟ ᱠᱚ";
+
+/* This string is the title of the toggle to disable the sponsored shortcuts functionnality which can be enabled in the shortcut sections. This toggle is in the settings page. */
+"Settings.Homepage.Shortcuts.SponsoredShortcutsToggle.v100" = "ᱠᱟᱹᱢᱤᱼᱤᱡ ᱠᱷᱟᱴᱚ ᱢᱟᱪᱷᱟ ᱠᱚ";
+
+/* Toggled OFF to hide the shortcuts section */
+"Settings.Homepage.Shortcuts.ToggleOff.v100" = "ᱵᱚᱸᱫᱚ";
+
+/* Toggled ON to show the shortcuts section */
+"Settings.Homepage.Shortcuts.ToggleOn.v100" = "ᱪᱟᱹᱞᱩ";
+
 /* Title displayed in header of the setting panel. */
 "Settings.HomePage.Title" = "ᱚᱲᱟᱜ ᱥᱟᱦᱴᱟ ᱥᱟᱡᱟᱣ ᱠᱚ";
 
@@ -1894,7 +1924,7 @@
 "Settings.TrackingProtection.LearnMore" = "ᱰᱷᱮᱨ ᱥᱮᱲᱟᱭ ᱢᱮ";
 
 /* 'More Info' link on the Tracking Protection settings screen. */
-"Settings.TrackingProtection.MoreInfo" = "ᱵᱚᱲᱛᱤ ᱞᱚᱭ ᱥᱚᱫᱚᱨ...";
+"Settings.TrackingProtection.MoreInfo" = "ᱵᱚᱲᱛᱤ ᱞᱚᱭ ᱥᱚᱫᱚᱨ…";
 
 /* Additional information about your Enhanced Tracking Protection */
 "Settings.TrackingProtection.ProtectionCellFooter" = "ᱴᱟᱨᱜᱮᱴ ᱰᱷᱟᱣᱨᱟᱹ ᱠᱚᱢ ᱟᱭ ᱟᱨ ᱰᱷᱟᱣᱨᱟᱸ ᱠᱚ ᱜᱷᱮᱨ ᱮᱥᱮᱫ ᱠᱷᱚᱱ ᱵᱚᱸᱫᱚ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢᱟᱭ ᱾";
@@ -2042,7 +2072,7 @@
 "Sync.Syncing.Label" = "ᱛᱚᱞ ᱡᱚᱠᱷᱟ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ";
 
 /* Message displayed when the user's account is syncing with ellipsis at the end */
-"Sync.SyncingEllipsis.Label" = "ᱛᱚᱞ ᱡᱚᱠᱷᱟ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...";
+"Sync.SyncingEllipsis.Label" = "ᱛᱚᱞ ᱡᱚᱠᱷᱟ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ…";
 
 /* Panel accessibility label */
 "Synced Tabs" = "ᱛᱷᱟᱨ ᱦᱚᱪᱚ ᱴᱮᱵ";
