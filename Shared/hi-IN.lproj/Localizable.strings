@@ -755,7 +755,7 @@
 "Load original page" = "मूल पृष्ठ लोड करें";
 
 /* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
-"Loading content…" = "सामग्री लोड हो रही है ...";
+"Loading content…" = "सामग्री लोड हो रही है…";
 
 /* Authentication prompt log in button */
 "Log in" = "लॉग इन";
@@ -1484,9 +1484,6 @@
 
 /* Title for the section in the settings menu where users can configure the behaviour of the Start at Home feature on the Firefox Homepage. */
 "Settings.Home.Option.StartAtHome.Title" = "खुलता हुआ स्क्रीन";
-
-/* In the settings menu, this is the title of the Firefox Homepage customization settings section */
-"Settings.Home.Option.Title" = "फ़ायरफ़ॉक्स मुखपृष्ठ";
 
 /* Button in settings to clear the home page. */
 "Settings.HomePage.Clear.Button" = "खाली करें";
