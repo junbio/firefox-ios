@@ -303,7 +303,7 @@
 "ContextualHints.SearchBarPlacement.CallToAction" = "הגדרות סרגל הכלים";
 
 /* Contextual hints are little popups that appear for the users informing them of new features. This one talks about the inactive tabs feature. */
-"ContextualHints.TabTray.InactiveTabs" = "לשוניות שלא צפית בהם במשך שבועיים עוברות לכאן.";
+"ContextualHints.TabTray.InactiveTabs" = "לשוניות בהן לא צפית במשך שבועיים מועברות לכאן.";
 
 /* Contextual hints are little popups that appear for the users informing them of new features. This one is the call to action for the inactive tabs contextual popup. */
 "ContextualHints.TabTray.InactiveTabs.CallToAction" = "כיבוי בהגדרות";
@@ -454,6 +454,9 @@
 /* When a user taps and holds on an item from the Recently Visited section, this label will appear indicating the option to remove that item. */
 "FirefoxHome.RecentHistory.Remove" = "הסרה";
 
+/* This string will show under a shortcuts tile on the firefox home page, indicating that the tile is a sponsored tile. Space is limited, please keep as short as possible. */
+"FirefoxHomepage.Shortcuts.Sponsored.v100" = "ממומן";
+
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "קדימה";
 
@@ -549,6 +552,9 @@
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
 "FxAPush_DeviceDisconnected_UnknownDevice_body" = "נותק מכשיר מ־Firefox Sync";
+
+/* On the firefox homepage, the string read by the voice over prompt for accessibility, for the button which changes the wallpaper */
+"FxHomepage.Wallpaper.ButtonLabel.v99" = "הלוגו של Firefox, החלפת תמונת הרקע.";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "קבלת הלשוניות הפתוחות, הסימניות והססמאות שלך מההתקנים האחרים שלך.";
@@ -686,7 +692,7 @@
 "InactiveTabs.TabTray.AutoClosePrompt.ButtonTitle" = "הפעלת סגירה אוטומטית";
 
 /* In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This string describes what happens if you elect to turn on this option. */
-"InactiveTabs.TabTray.AutoClosePrompt.Content" = "‏Firefox יסגור לשוניות שלא נצפו במהלך החודש האחרון.";
+"InactiveTabs.TabTray.AutoClosePrompt.Content" = "‏Firefox יסגור לשוניות שלא צפית בהן במהלך החודש האחרון.";
 
 /* In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This is the title of that Auto Close prompt */
 "InactiveTabs.TabTray.AutoClosePrompt.Title" = "לסגור באופן אוטומטי לאחר חודש אחד?";
@@ -787,6 +793,18 @@
 /* History tableview section header */
 "Last week" = "שבוע שעבר";
 
+/* Within the History Panel, users can delete search group sites history. They can cancel this action by pressing a cancel button. */
+"LibraryPanel.History.ClearGroupedTabsCancel.v100" = "ביטול";
+
+/* Within the History Panel, users can delete search group sites history. They need to confirm the action by pressing the delete button. */
+"LibraryPanel.History.ClearGroupedTabsDelete.v100" = "מחיקה";
+
+/* Within the History Panel, users can delete search group sites history. %@ represents the search group name. */
+"LibraryPanel.History.ClearGroupedTabsTitle.v100" = "למחוק את כל האתרים תחת %@?";
+
+/* Within the History Panel, users can open an action menu to clear recent history. */
+"LibraryPanel.History.ClearHistoryMenuTitle.v100" = "מסיר היסטוריה (כולל היסטוריה מסונכרנת ממכשירים אחרים), עוגיות ונתוני גלישה אחרים.";
+
 /* In the history panel, users will be able to search terms in their browsing history. This label is shown when there is no results after querying the search terms in the user's history. */
 "LibraryPanel.History.NoHistoryFound.v99" = "לא נמצאה היסטוריה";
 
@@ -798,6 +816,9 @@
 
 /* In the history panel, this is the title on the button that navigates the user to a screen showing only browser history from other devices that are synced with the user's Firefox account. */
 "LibraryPanel.History.SyncedFromOtherDevices.v99" = "סונכרן מהתקנים אחרים";
+
+/* Within the History Panel, users can see the option of viewing their history from synced tabs. */
+"LibraryPanel.History.SyncedHistory.v100" = "היסטוריה מסונכרנת";
 
 /* This label is meant to signify the section containing a group of items that are older than thirty days. */
 "LibraryPanel.Section.Older" = "ישן יותר";
@@ -1104,6 +1125,9 @@
 /* Description of cryptominers. */
 "Menu.TrackingProtectionDescription.CryptominersNew" = "כורי מטבעות דיגיטליים משתמשים בסתר בכוח העיבוד של המערכת שלך כדי לכרות כסף דיגיטלי. תסריטי כריית מטבעות מרוקנים את הסוללה שלך, מאטים את המחשב שלך ומגדילים את חשבון החשמל שלך.";
 
+/* Description of fingerprinters. */
+"Menu.TrackingProtectionDescription.Fingerprinters" = "ההגדרות בדפדפן ובמחשב שלך הן ייחודיות. מתעדי רכיבי הזהות הדיגיטליים האלה אוספים את מגוון ההגדרות הייחודיות כדי ללמוד את דפוס השימוש שלך, ניתן להשתמש בזה כדי לעקוב אחר הגלישה שלך.";
+
 /* The button that disabled TP for a site. */
 "Menu.TrackingProtectionDisable1.Title" = "מושבת עבור אתר זה";
 
@@ -1315,6 +1339,9 @@
 
 /* Text of the prompt user to setup the camera authorization. */
 "ScanQRCode.PermissionError.Message" = "נא לאפשר ל־Firefox לקבל גישה למצלמת המכשיר שלך בהגדרות -> פרטיות -> מצלמה.";
+
+/* Text of the prompt to setup the camera authorization for the Scan QR Code feature. */
+"ScanQRCode.PermissionError.Message.v100" = "יש לעבור להגדרות במכשיר, לבחור ב־Firefox, ולאפשר ל־Firefox לגשת למצלמה.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "סריקת קוד QR";
@@ -1575,9 +1602,6 @@
 /* General settings section title */
 "Settings.General.SectionName" = "כללי";
 
-/* In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for. */
-"Settings.Home.Option.Description" = "בחירת התוכן שיופיע במסך הבית של Firefox.";
-
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle the Jump Back In section on homepage on or off */
 "Settings.Home.Option.JumpBackIn" = "המשך גלישה";
 
@@ -1608,11 +1632,35 @@
 /* Title for the section in the settings menu where users can configure the behaviour of the Start at Home feature on the Firefox Homepage. */
 "Settings.Home.Option.StartAtHome.Title" = "מסך הפתיחה";
 
-/* In the settings menu, this is the title of the Firefox Homepage customization settings section */
-"Settings.Home.Option.Title" = "מסך הבית של Firefox";
+/* In the settings menu, on the Firefox homepage customization section, this is the title for the option that allows users to access the wallpaper settings for the application. */
+"Settings.Home.Option.Wallpaper" = "רקע";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the accessibility string for the amethyst firefox wallpaper. */
+"Settings.Home.Option.Wallpaper.Accessibility.AmethystWallpaper.v99" = "הרקע של Firefox, תבנית אמטיסט.";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the title accessibility string for the cerulean firefox wallpaper. */
+"Settings.Home.Option.Wallpaper.Accessibility.CeruleanWallpaper.v99" = "הרקע של Firefox, תבנית שמיים.";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the accessibility string for the default wallpaper. */
+"Settings.Home.Option.Wallpaper.Accessibility.DefaultWallpaper.v99" = "הרקע החלק כברירת מחדל.";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the title accessibility string for the sunrise firefox wallpaper. */
+"Settings.Home.Option.Wallpaper.Accessibility.SunriseWallpaper.v99" = "הרקע של Firefox, תבנית זריחה.";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the accessibility string of the toggle for turning wallpaper cycling shortcut on or off on the homepage. */
+"Settings.Home.Option.Wallpaper.Accessibility.ToggleButton" = "כפתור החלפת תמונת רקע";
 
 /* In the settings menu, on the Firefox wallpaper customization screen, this is the title of the section that allows users to change the wallpaper settings for the application. */
 "Settings.Home.Option.Wallpaper.CollectionTitle" = "מסך הפתיחה";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the string titling the switch button's function, which allows a user to toggle wallpaper switching from the homepage logo on or off. */
+"Settings.Home.Option.Wallpaper.SwitchTitle.v99" = "החלפת הרקע על־ידי נגיעה בלוגו דף הבית של Firefox";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the title of that screen, which allows users to change the wallpaper settings for the application. */
+"Settings.Home.Option.Wallpaper.Title" = "תמונת רקע";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the title of toast that comes up when the user changes wallpaper, which lets them know that the wallpaper has been updated. */
+"Settings.Home.Option.Wallpaper.UpdatedToast" = "תמונת הרקע עודכנה!";
 
 /* In the settings menu, on the Firefox wallpaper customization screen, this is the title of the button found on the toast that comes up once the user changes wallpaper, and allows users to dismiss the settings page. In this case, consider View as a verb - the action of dismissing settings and seeing the wallpaper. */
 "Settings.Home.Option.Wallpaper.UpdatedToastButton" = "הצגה";
@@ -1622,6 +1670,27 @@
 
 /* Label used as an item in Settings. When touched it will open a dialog to configure the home page and its uses. */
 "Settings.HomePage.SectionName" = "דף בית";
+
+/* This string is the title of the setting button which can be clicked to open a page to customize the number of rows in the shortcuts section */
+"Settings.Homepage.Shortcuts.Rows.v100" = "שורות";
+
+/* This string is the title of the page to customize the number of rows in the shortcuts section */
+"Settings.Homepage.Shortcuts.RowsPageTitle.v100" = "שורות";
+
+/* Users can disable or enable shortcuts related settings. This string is the title of the page to change your shortcuts settings. */
+"Settings.Homepage.Shortcuts.ShortcutsPageTitle.v100" = "קיצורי דרך";
+
+/* This string is the title of the toggle to disable the shortcuts section in the settings page. */
+"Settings.Homepage.Shortcuts.ShortcutsToggle.v100" = "קיצורי דרך";
+
+/* This string is the title of the toggle to disable the sponsored shortcuts functionnality which can be enabled in the shortcut sections. This toggle is in the settings page. */
+"Settings.Homepage.Shortcuts.SponsoredShortcutsToggle.v100" = "קיצורי דרך ממומנים";
+
+/* Toggled OFF to hide the shortcuts section */
+"Settings.Homepage.Shortcuts.ToggleOff.v100" = "כבוי";
+
+/* Toggled ON to show the shortcuts section */
+"Settings.Homepage.Shortcuts.ToggleOn.v100" = "פעיל";
 
 /* Title displayed in header of the setting panel. */
 "Settings.HomePage.Title" = "הגדרות דף בית";
@@ -1694,6 +1763,9 @@
 
 /* Option in settings to turn on off pocket recommendations First argument is the pocket brand name */
 "Settings.NewTab.Option.RecommendedByPocket" = "מומלץ על־ידי %@";
+
+/* Descriptoin for the option in settings to turn on off pocket recommendations. First argument is the pocket brand name, second argument is the pocket product name. */
+"Settings.NewTab.Option.RecommendedByPocketDescription" = "תוכן מהמם שנאסף על־ידי %1$@, חלק ממשפחת %2$@";
 
 /* Label used as an item in Settings. When touched it will open a dialog to configure the new tab behavior. */
 "Settings.NewTab.SectionName" = "לשונית חדשה";
