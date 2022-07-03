@@ -207,7 +207,7 @@
 "BookmarksPanel.EmptyState.Title" = "Bókamerkin sem þú vistar verða sýnd hér.";
 
 /* Describes the date on which the breach occurred */
-"BreachAlerts.BreachDate" = "Þetta innbrot átti sér stað þann";
+"BreachAlerts.BreachDate" = "Þetta gagnarán átti sér stað þann";
 
 /* Description of what a breach is */
 "BreachAlerts.Description" = "Lykilorðum var lekið eða þeim stolið síðan þú breyttir lykilorðinu þínu síðast. Til að vernda þennan reikning skaltu skrá þig inn á vefsvæðið og breyta lykilorðinu þínu.";
@@ -457,6 +457,9 @@
 /* When a user taps and holds on an item from the Recently Visited section, this label will appear indicating the option to remove that item. */
 "FirefoxHome.RecentHistory.Remove" = "Fjarlægja";
 
+/* This string will show under a shortcuts tile on the firefox home page, indicating that the tile is a sponsored tile. Space is limited, please keep as short as possible. */
+"FirefoxHomepage.Shortcuts.Sponsored.v100" = "Kostað";
+
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Áfram";
 
@@ -617,7 +620,7 @@
 "HistoryPanel.SyncedTabsCell.Title" = "Samstillt tæki";
 
 /* Accessibility label for the tab toolbar indicating the Home button. */
-"Home" = "Upphafssíða";
+"Home" = "Heim";
 
 /* Button cancelling changes setting the home page for the first time. */
 "HomePage.Set.Dialog.Cancel" = "Hætta við";
@@ -793,6 +796,18 @@
 /* History tableview section header */
 "Last week" = "Í síðustu viku";
 
+/* Within the History Panel, users can delete search group sites history. They can cancel this action by pressing a cancel button. */
+"LibraryPanel.History.ClearGroupedTabsCancel.v100" = "Hætta við";
+
+/* Within the History Panel, users can delete search group sites history. They need to confirm the action by pressing the delete button. */
+"LibraryPanel.History.ClearGroupedTabsDelete.v100" = "Eyða";
+
+/* Within the History Panel, users can delete search group sites history. %@ represents the search group name. */
+"LibraryPanel.History.ClearGroupedTabsTitle.v100" = "Eyða öllum vefsvæðum í %@?";
+
+/* Within the History Panel, users can open an action menu to clear recent history. */
+"LibraryPanel.History.ClearHistoryMenuTitle.v100" = "Fjarlægir feril (þar á meðal feril samstilltan úr öðrum tækjum), vefkökur og önnur vafragögn.";
+
 /* In the history panel, users will be able to search terms in their browsing history. This label is shown when there is no results after querying the search terms in the user's history. */
 "LibraryPanel.History.NoHistoryFound.v99" = "Enginn vafurferill fannst";
 
@@ -804,6 +819,9 @@
 
 /* In the history panel, this is the title on the button that navigates the user to a screen showing only browser history from other devices that are synced with the user's Firefox account. */
 "LibraryPanel.History.SyncedFromOtherDevices.v99" = "Samstillt frá öðrum tækjum";
+
+/* Within the History Panel, users can see the option of viewing their history from synced tabs. */
+"LibraryPanel.History.SyncedHistory.v100" = "Samstilltur ferill";
 
 /* This label is meant to signify the section containing a group of items that are older than thirty days. */
 "LibraryPanel.Section.Older" = "Eldra";
@@ -1069,7 +1087,7 @@
 "Menu.Toolbar.Bookmarks.AccessibilityLabel.v99" = "Bókamerki";
 
 /* Accessibility label for the Home button on the toolbar. Pressing this button brings the user to the home page. */
-"Menu.Toolbar.Home.AccessibilityLabel.v99" = "Upphafssíða";
+"Menu.Toolbar.Home.AccessibilityLabel.v99" = "Heim";
 
 /* Title on tracking protection menu for blocked items. */
 "Menu.TrackingProtection.BlockedTitle" = "Lokað á";
@@ -1346,6 +1364,9 @@
 /* Text of the prompt user to setup the camera authorization. */
 "ScanQRCode.PermissionError.Message" = "Leyfðu Firefox að fá aðgang að myndavélinni í 'Settings' -> 'Privacy' -> 'Camera'.";
 
+/* Text of the prompt to setup the camera authorization for the Scan QR Code feature. */
+"ScanQRCode.PermissionError.Message.v100" = "Farðu á tækinu í 'Stillingar' > 'Firefox'. Leyfðu Firefox að fá aðgang að myndavélinni.";
+
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Skanna QR-kóða";
 
@@ -1605,9 +1626,6 @@
 /* General settings section title */
 "Settings.General.SectionName" = "Almennt";
 
-/* In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for. */
-"Settings.Home.Option.Description" = "Veldu það efni sem þú sérð á upphafssíðu Firefox.";
-
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle the Jump Back In section on homepage on or off */
 "Settings.Home.Option.JumpBackIn" = "Hoppa aftur inn";
 
@@ -1637,9 +1655,6 @@
 
 /* Title for the section in the settings menu where users can configure the behaviour of the Start at Home feature on the Firefox Homepage. */
 "Settings.Home.Option.StartAtHome.Title" = "Upphafsskjár";
-
-/* In the settings menu, this is the title of the Firefox Homepage customization settings section */
-"Settings.Home.Option.Title" = "Upphafssíða Firefox";
 
 /* In the settings menu, on the Firefox homepage customization section, this is the title for the option that allows users to access the wallpaper settings for the application. */
 "Settings.Home.Option.Wallpaper" = "Bakgrunnur";
@@ -1679,6 +1694,27 @@
 
 /* Label used as an item in Settings. When touched it will open a dialog to configure the home page and its uses. */
 "Settings.HomePage.SectionName" = "Upphafssíða";
+
+/* This string is the title of the setting button which can be clicked to open a page to customize the number of rows in the shortcuts section */
+"Settings.Homepage.Shortcuts.Rows.v100" = "Raðir";
+
+/* This string is the title of the page to customize the number of rows in the shortcuts section */
+"Settings.Homepage.Shortcuts.RowsPageTitle.v100" = "Raðir";
+
+/* Users can disable or enable shortcuts related settings. This string is the title of the page to change your shortcuts settings. */
+"Settings.Homepage.Shortcuts.ShortcutsPageTitle.v100" = "Flýtileiðir";
+
+/* This string is the title of the toggle to disable the shortcuts section in the settings page. */
+"Settings.Homepage.Shortcuts.ShortcutsToggle.v100" = "Flýtileiðir";
+
+/* This string is the title of the toggle to disable the sponsored shortcuts functionnality which can be enabled in the shortcut sections. This toggle is in the settings page. */
+"Settings.Homepage.Shortcuts.SponsoredShortcutsToggle.v100" = "Kostaðar flýtileiðir";
+
+/* Toggled OFF to hide the shortcuts section */
+"Settings.Homepage.Shortcuts.ToggleOff.v100" = "Af";
+
+/* Toggled ON to show the shortcuts section */
+"Settings.Homepage.Shortcuts.ToggleOn.v100" = "Ǻ";
 
 /* Title displayed in header of the setting panel. */
 "Settings.HomePage.Title" = "Stillingar upphafssíðu";
@@ -2130,9 +2166,6 @@
 
 /* In the Tabs Tray, summoned from the homepage, the title for the section containing non-grouped tabs, which will appear below grouped tabs */
 "TabTray.OtherTabs.Title" = "Aðrir flipar";
-
-/* The title for the tab tray in private mode */
-"TabTray.PrivateTitle" = "Huliðsflipar";
 
 /* Describes what the Recently Closed tabs behavior is for users unfamiliar with it. */
 "TabTray.RecentlyClosed.Description" = "Flipar eru tiltækir hér í 30 daga. Eftir þann tíma verður flipum sjálfkrafa lokað.";
