@@ -35,13 +35,13 @@
 "ActivityStream.ContextMenu.UnpinTopsite" = "Відкріпити";
 
 /* The description of a highlight if it is a site the user has bookmarked */
-"ActivityStream.Highlights.Bookmark" = "Закладено";
+"ActivityStream.Highlights.Bookmark" = "Додано до закладок";
 
 /* The description of a highlight if it is a site the user has visited */
 "ActivityStream.Highlights.Visited" = "Відвідано";
 
 /* Title for the Jump Back In section. This section allows users to jump back in to a recently viewed tab */
-"ActivityStream.JumpBackIn.SectionTitle" = "Назад до";
+"ActivityStream.JumpBackIn.SectionTitle" = "Відкрити знову";
 
 /* On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists underneath the search term for the tab group, there will be a subtitle with a number for how many tabs are in that group. The placeholder is for a number. It will read 'Tabs: 5' or similar. */
 "ActivityStream.JumpBackIn.TabGroup.SiteCount" = "Вкладки: %d";
@@ -156,10 +156,10 @@
 "Bookmarks.Actions.Add" = "Додати";
 
 /* A label indicating the action of bookmarking all currently open non private tabs. */
-"Bookmarks.Actions.BookmarkAllTabs" = "Закласти всі вкладки";
+"Bookmarks.Actions.BookmarkAllTabs" = "Додати до закладок усі вкладки";
 
 /* A label indicating the action of bookmarking the current tab. */
-"Bookmarks.Actions.BookmarkCurrentTab" = "Закласти поточну вкладку";
+"Bookmarks.Actions.BookmarkCurrentTab" = "Додати цю вкладку до закладок";
 
 /* The button on the snackbar to edit a bookmark after adding it. */
 "Bookmarks.Edit.Button" = "Змінити";
@@ -252,13 +252,13 @@
 "ContextMenu.BookmarkLinkButtonTitle" = "Додати закладку";
 
 /* The button text in the Button Toast for switching to a fresh New Private Tab. */
-"ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText" = "Перемкнути";
+"ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText" = "Перейти";
 
 /* The label text in the Button Toast for switching to a fresh New Private Tab. */
 "ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText" = "Відкрито нову приватну вкладку";
 
 /* The button text in the Button Toast for switching to a fresh New Tab. */
-"ContextMenu.ButtonToast.NewTabOpened.ButtonText" = "Перемкнути";
+"ContextMenu.ButtonToast.NewTabOpened.ButtonText" = "Перейти";
 
 /* The label text in the Button Toast for switching to a fresh New Tab. */
 "ContextMenu.ButtonToast.NewTabOpened.LabelText" = "Відкрито нову вкладку";
@@ -359,7 +359,7 @@
 "Downloads" = "Завантаження";
 
 /* The label of the button the user will press to start downloading a file */
-"Downloads.Alert.DownloadNow" = "Завантажити зараз";
+"Downloads.Alert.DownloadNow" = "Завантажити";
 
 /* Button confirming the cancellation of the download. */
 "Downloads.CancelDialog.Cancel" = "Скасувати";
@@ -456,6 +456,9 @@
 
 /* When a user taps and holds on an item from the Recently Visited section, this label will appear indicating the option to remove that item. */
 "FirefoxHome.RecentHistory.Remove" = "Вилучити";
+
+/* This string will show under a shortcuts tile on the firefox home page, indicating that the tile is a sponsored tile. Space is limited, please keep as short as possible. */
+"FirefoxHomepage.Shortcuts.Sponsored.v100" = "Спонсоровано";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Вперед";
@@ -728,7 +731,7 @@
 "Keyboard.Shortcuts.OpenLinkInBackground" = "Відкрити посилання у фоновому режимі";
 
 /* A label indicating the keyboard shortcut of opening a link in a new tab and switching to that tab at the same time. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
-"Keyboard.Shortcuts.OpenLinkInNewTab" = "Відкрити посилання в новій вкладці";
+"Keyboard.Shortcuts.OpenLinkInNewTab" = "Відкрити у новій вкладці";
 
 /* A label indicating the keyboard shortcut of saving the current web page in a format of the user's choice. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
 "Keyboard.Shortcuts.SavePageAs" = "Зберегти сторінку як…";
@@ -755,7 +758,7 @@
 "Keyboard.Shortcuts.Section.Window" = "Вікно";
 
 /* A label indicating the keyboard shortcut of opening the application's settings menu. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
-"Keyboard.Shortcuts.Settings" = "Налаштування";
+"Keyboard.Shortcuts.Settings" = "Параметри";
 
 /* A label indicating the keyboard shortcut of showing all bookmarks. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
 "Keyboard.Shortcuts.ShowBookmarks" = "Показати закладки";
@@ -793,6 +796,18 @@
 /* History tableview section header */
 "Last week" = "Останній тиждень";
 
+/* Within the History Panel, users can delete search group sites history. They can cancel this action by pressing a cancel button. */
+"LibraryPanel.History.ClearGroupedTabsCancel.v100" = "Скасувати";
+
+/* Within the History Panel, users can delete search group sites history. They need to confirm the action by pressing the delete button. */
+"LibraryPanel.History.ClearGroupedTabsDelete.v100" = "Видалити";
+
+/* Within the History Panel, users can delete search group sites history. %@ represents the search group name. */
+"LibraryPanel.History.ClearGroupedTabsTitle.v100" = "Видалити всі сайти в %@?";
+
+/* Within the History Panel, users can open an action menu to clear recent history. */
+"LibraryPanel.History.ClearHistoryMenuTitle.v100" = "Вилучає історію (включно з історією, синхронізованою з інших пристроїв), куки та інші дані вебперегляду.";
+
 /* In the history panel, users will be able to search terms in their browsing history. This label is shown when there is no results after querying the search terms in the user's history. */
 "LibraryPanel.History.NoHistoryFound.v99" = "Історію не знайдено";
 
@@ -805,8 +820,11 @@
 /* In the history panel, this is the title on the button that navigates the user to a screen showing only browser history from other devices that are synced with the user's Firefox account. */
 "LibraryPanel.History.SyncedFromOtherDevices.v99" = "Синхронізовано з інших пристроїв";
 
+/* Within the History Panel, users can see the option of viewing their history from synced tabs. */
+"LibraryPanel.History.SyncedHistory.v100" = "Синхронізована історія";
+
 /* This label is meant to signify the section containing a group of items that are older than thirty days. */
-"LibraryPanel.Section.Older" = "Старіші";
+"LibraryPanel.Section.Older" = "Давніші";
 
 /* Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG */
 "Licenses" = "Ліцензії";
@@ -1346,6 +1364,9 @@
 /* Text of the prompt user to setup the camera authorization. */
 "ScanQRCode.PermissionError.Message" = "Дозвольте Firefox доступ до камери пристрою, відкривши Параметри -> Приватність -> Камера.";
 
+/* Text of the prompt to setup the camera authorization for the Scan QR Code feature. */
+"ScanQRCode.PermissionError.Message.v100" = "Відкрийте «Параметри» пристрою > «Firefox». Дозвольте Firefox отримати доступ до камери.";
+
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Сканувати QR-код";
 
@@ -1605,11 +1626,8 @@
 /* General settings section title */
 "Settings.General.SectionName" = "Загальні";
 
-/* In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for. */
-"Settings.Home.Option.Description" = "Оберіть, що ви побачите на домівці Firefox.";
-
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle the Jump Back In section on homepage on or off */
-"Settings.Home.Option.JumpBackIn" = "Назад до";
+"Settings.Home.Option.JumpBackIn" = "Відкрити знову";
 
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off */
 "Settings.Home.Option.Pocket" = "Рекомендації від Pocket";
@@ -1637,9 +1655,6 @@
 
 /* Title for the section in the settings menu where users can configure the behaviour of the Start at Home feature on the Firefox Homepage. */
 "Settings.Home.Option.StartAtHome.Title" = "Початковий екран";
-
-/* In the settings menu, this is the title of the Firefox Homepage customization settings section */
-"Settings.Home.Option.Title" = "Домівка Firefox";
 
 /* In the settings menu, on the Firefox homepage customization section, this is the title for the option that allows users to access the wallpaper settings for the application. */
 "Settings.Home.Option.Wallpaper" = "Шпалери";
@@ -1679,6 +1694,27 @@
 
 /* Label used as an item in Settings. When touched it will open a dialog to configure the home page and its uses. */
 "Settings.HomePage.SectionName" = "Домівка";
+
+/* This string is the title of the setting button which can be clicked to open a page to customize the number of rows in the shortcuts section */
+"Settings.Homepage.Shortcuts.Rows.v100" = "Рядки";
+
+/* This string is the title of the page to customize the number of rows in the shortcuts section */
+"Settings.Homepage.Shortcuts.RowsPageTitle.v100" = "Рядки";
+
+/* Users can disable or enable shortcuts related settings. This string is the title of the page to change your shortcuts settings. */
+"Settings.Homepage.Shortcuts.ShortcutsPageTitle.v100" = "Ярлики";
+
+/* This string is the title of the toggle to disable the shortcuts section in the settings page. */
+"Settings.Homepage.Shortcuts.ShortcutsToggle.v100" = "Ярлики";
+
+/* This string is the title of the toggle to disable the sponsored shortcuts functionnality which can be enabled in the shortcut sections. This toggle is in the settings page. */
+"Settings.Homepage.Shortcuts.SponsoredShortcutsToggle.v100" = "Спонсоровані ярлики";
+
+/* Toggled OFF to hide the shortcuts section */
+"Settings.Homepage.Shortcuts.ToggleOff.v100" = "Вимкнено";
+
+/* Toggled ON to show the shortcuts section */
+"Settings.Homepage.Shortcuts.ToggleOn.v100" = "Увімкнено";
 
 /* Title displayed in header of the setting panel. */
 "Settings.HomePage.Title" = "Домівка";
@@ -1729,10 +1765,10 @@
 "Settings.NewTab.Option.FirefoxHome" = "Домівка Firefox";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
-"Settings.NewTab.Option.HighlightsBookmarks" = "Недавні закладки";
+"Settings.NewTab.Option.HighlightsBookmarks" = "Останні закладки";
 
 /* Option in settings to turn off history in the highlights section */
-"Settings.NewTab.Option.HighlightsHistory" = "Обране";
+"Settings.NewTab.Option.HighlightsHistory" = "Відвідано";
 
 /* Option in settings to show history when you open a new tab */
 "Settings.NewTab.Option.History" = "Історія";
@@ -1810,7 +1846,7 @@
 "Settings.ShowLoginsInAppMenu.Title" = "Показувати в меню";
 
 /* The description of the open new tab siri shortcut */
-"Settings.Siri.OpenTabShortcut" = "Відкрити нову вкладку";
+"Settings.Siri.OpenTabShortcut" = "Нова вкладка";
 
 /* The description that describes what siri shortcuts are */
 "Settings.Siri.SectionDescription" = "Використовуйте команди Siri, щоб швидко відкривати Firefox через Siri";
@@ -1984,7 +2020,7 @@
 "ShareExtension.BookmarkThisPageAction.Title" = "Додати закладку";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
-"ShareExtension.BookmarkThisPageActionDone.Title" = "Закладено";
+"ShareExtension.BookmarkThisPageActionDone.Title" = "Додано до закладок";
 
 /* Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Завантажити на задньому плані";
@@ -2123,16 +2159,13 @@
 "TabTray.Older.Header" = "Давніші";
 
 /* Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
-"TabTray.OpenNewTab.KeyCodeTitle" = "Відкрити нову вкладку";
+"TabTray.OpenNewTab.KeyCodeTitle" = "Нова вкладка";
 
 /* Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "TabTray.OpenSelectedTab.KeyCodeTitle" = "Відкрити вибрану вкладку";
 
 /* In the Tabs Tray, summoned from the homepage, the title for the section containing non-grouped tabs, which will appear below grouped tabs */
 "TabTray.OtherTabs.Title" = "Інші вкладки";
-
-/* The title for the tab tray in private mode */
-"TabTray.PrivateTitle" = "Приватні вкладки";
 
 /* Describes what the Recently Closed tabs behavior is for users unfamiliar with it. */
 "TabTray.RecentlyClosed.Description" = "Вкладки доступні тут протягом 30 днів. Після цього вони будуть автоматично закриті.";
