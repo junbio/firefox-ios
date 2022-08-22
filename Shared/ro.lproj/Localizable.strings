@@ -825,9 +825,6 @@
 /* label for the menu item that lets you remove a website from the tracking protection whitelist */
 "Menu.TrackingProtectionWhitelistRemove.Title" = "Activează pentru acest site";
 
-/* The title for the option to view the What's new page. */
-"Menu.WhatsNew.Title" = "Ce este nou";
-
 /* Accessibility label for Mobile Device image in remote tabs list */
 "mobile device" = "dispozitiv mobil";
 
@@ -976,7 +973,7 @@
 /* Accessibility Label for the tab toolbar Search button
    Navigation title for search settings.
    Open search section of settings */
-"Search" = "Căutare";
+"Search" = "Caută";
 
 /* The text shown in the URL bar on about:home */
 "Search or enter address" = "Caută sau introdu adresa";
@@ -1176,9 +1173,6 @@
 
 /* Option choice in display theme settings for light theme */
 "Settings.DisplayTheme.OptionLight" = "Deschisă";
-
-/* Display (theme) settings footer describing how the brightness slider works. */
-"Settings.DisplayTheme.SectionFooter" = "Tema se va schimba automat în funcție de luminozitatea ecranului. Poți seta pragul în care se schimbă tema. Cercul indică luminozitatea actuală a afișajului.";
 
 /* Switch mode settings section title */
 "Settings.DisplayTheme.SwitchMode.SectionHeader" = "Comutare mod";
